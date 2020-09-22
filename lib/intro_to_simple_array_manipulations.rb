@@ -27,4 +27,5 @@ end
 def using_delete_at(famous_robots, 2)
  # puts famous_robots.delete_at(2)
  famous_robots.delete_at(2)
+ famous_robots
 end 
