@@ -24,9 +24,7 @@ def using_delete(instructors, steven)
   instructors.delete(steven)
 end
 
-def using_delete_at(famous_robots)
+def using_delete_at(famous_robots, 2)
  # puts famous_robots.delete_at(2)
- # famous_robots.delete_at(2)
-  deleted_robot = using_delete_at(famous_robots, 2)
-  deleted_robot
+ famous_robots.delete_at(2)
 end 
