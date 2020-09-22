@@ -6,7 +6,8 @@ end
 
 def using_insert(list_of_programming_languages, another_language)
   #puts list_of_programming_languages[4].insert(another_language)
-  list_of_programming_languages[4].insert(another_language)
+  delete = list_of_programming_languages[4].insert(another_language)
+  delete
 end 
 
 def using_uniq(haircuts)
@@ -27,5 +28,4 @@ end
 def using_delete_at(famous_robots, 2)
  # puts famous_robots.delete_at(2)
  famous_robots.delete_at(2)
- famous_robots
 end 
