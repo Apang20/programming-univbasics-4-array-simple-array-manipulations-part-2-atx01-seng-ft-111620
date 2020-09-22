@@ -6,8 +6,8 @@ end
 
 def using_insert(list_of_programming_languages, another_language)
   #puts list_of_programming_languages[4].insert(another_language)
-  delete = list_of_programming_languages[4].insert(another_language)
-  delete
+  insert = list_of_programming_languages[4].insert(another_language)
+  insert
 end 
 
 def using_uniq(haircuts)
